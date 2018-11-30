@@ -30,3 +30,19 @@ print(yueyue.age)
 # 注意成员函数的调用没有传递进入参数
 yueyue.doHomework()
 
+# 定义一个类
+class GitHub():
+    address = "github.com"
+    user = None
+    password = "xxxx"
+
+    def LogInGitHub(self):
+        print("Open https://github.com")
+        return
+
+# 实例化
+gitlog = GitHub()
+print(gitlog.address)
+gitlog.LogInGitHub()
+
+
